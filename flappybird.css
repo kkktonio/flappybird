@@ -1,0 +1,35 @@
+body{
+display: flex;
+background-color: #21B97D;
+justify-content: center;
+align-items: center;
+}
+
+section{
+position: relative;
+display:flex;
+justify-content:center;
+align-items: center;
+margin-top: 55px;
+width:400px;
+height:598px;
+background-image: url(https://thumbs.dreamstime.com/b/sea-ocean-cartoon-landscape-sky-clouds-seamless-water-waves-background-computer-game-design-72048714.jpg);
+overflow: hidden;
+}
+
+#oiseau{
+display:flex;
+justify-content:center;
+align-items:center;
+height: 48px;
+}
+
+#oiseau {
+position: absolute;
+}
+
+#tuyau{
+position: absolute;
+right: 0px;
+top:-200px;
+}
