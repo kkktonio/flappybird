@@ -18,8 +18,22 @@ else if (e.keyCode == 37){
  }  //fleche gauche
 });
 
-function a_tuyau() {
-    $('#tuyau').animate({right: '+=400px'},3000,'linear');
-}
+setInterval(function (e){
+ var p = $('#tuyau');
+ var position = p.position();
+ console.log(position);
+ p.css({left: position.left-0.3},10);
+});
+
+
+//function genererObstacle() {
+//}
+
+
+
+
+//function a_tuyau() {
+  //  $('#tuyau').animate({right: '+=400px'},3000,'linear');
+//}
 
 //console.log() pour voir ce qui est à l'intérieur de quoi
