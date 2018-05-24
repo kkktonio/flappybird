@@ -13,28 +13,35 @@ align-items: center;
 margin-top: 55px;
 width:400px;
 height:598px;
-background-image: url(https://thumbs.dreamstime.com/b/sea-ocean-cartoon-landscape-sky-clouds-seamless-water-waves-background-computer-game-design-72048714.jpg);
+border-style: solid;
+/* border-color: red; */
+background-image: url(http://img.hebus.com/hebus_2005/01/04/preview/050104151748_55.jpg);
+background-position: bottom;
+background-repeat: no-repeat;
 overflow: hidden;
 }
 
 #oiseau{
+position: absolute;
 display:flex;
 justify-content:center;
 align-items:center;
 height: 48px;
 }
 
-#oiseau {
+.obstacle {
 position: absolute;
-}
-
-#tuyau{
-position: absolute;
-right: 0px;
+right: 34px;
 top:-200px;
+/* height: 500px;
+width: 2px; */
 }
 
-#canvas {
-  width: 1000px;
-  height: 600px;
+
+/* .obstacleBas {
+
 }
+
+obstacleHaut{
+
+} */
